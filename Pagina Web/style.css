@@ -1,0 +1,182 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+   text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #004D98;
+    color: white;
+    padding: 20px;
+}
+
+
+nav ul {
+   display: flex;
+    background-color: #db0030;
+    width: 100%;
+    list-style-type: none;
+    text-align: center;
+    flex-direction: row;
+    justify-content: center;
+}
+
+ nav a{
+    text-decoration: none;
+    color: white;
+    padding: 10px  ;
+    width: 150px;
+ }
+
+ nav li {
+  display: inline-flex;
+}
+
+ nav li:hover{
+  background-color: #6C3483;
+}
+
+ img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+ }
+
+ .contenido{
+    flex-direction: row;
+    display: flex;
+    margin: 60px;
+ }
+ 
+ .articulos{
+    width: 80%;
+    border-right: 3px solid black;
+ }
+
+ .secciones{
+    display: flex;
+    align-items: center;
+ }
+
+ .clase p{
+   flex-direction: row-reverse;
+   padding-right: 40px;
+ }
+
+ .menu-secundario{
+   width: 60%;
+   margin-top: 60px;
+ }
+
+ .menu-secundario a {
+   display: flex;
+   text-align: center;
+   color: black;
+   margin-bottom: 20px;
+   flex-direction: column;
+   align-items: center;
+ }
+
+ .imagenes {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: center;
+ }
+
+.foto1 img{
+  width: 500px;
+  height: 250px;
+  border-radius: 10px;
+  border:  10px solid  #1B4F72;
+ }
+
+ .foto2 img{
+  width: 500px;
+  height: 250px;
+  border-radius: 10px;
+  border:  10px solid  #1B4F72;
+ }
+
+ /* ------------------------------------------------ESTILOS PIE DE PAGINA --------------------------------------*/
+.pie-de-pagina{
+  width: 100%;
+  background-color: #004D98;
+  padding: 30px 10px 10px 10px;
+
+}
+.pie-de-pagina .grupo-1{
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns:repeat(3, 1fr);
+  grid-gap: 50px;
+  padding: 45px, 0px;
+}
+
+.pie-de-pagina .grupo-1 .box figure{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.pie-de-pagina .grupo-1 .box figure img{
+ width: 200px;
+ border-radius: 100px;
+}
+
+.pie-de-pagina .grupo-1 .box h2{
+  color: white;
+  margin-bottom: 25px;
+  font-size: 20px;
+}
+
+.pie-de-pagina .grupo-1 .box p{
+  color: white;
+  margin-bottom: 10px;
+}
+
+.pie-de-pagina .grupo-1 .red-social a{
+  display: inline-block;
+  text-decoration: none;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  margin-right: 10px;
+  color: wheat;
+  background-color: #633974;
+  text-align: center;
+  transition: all 300ms ease;
+}
+
+.pie-de-pagina .grupo-1 .red-social a:hover{
+  color: aqua;
+}
+
+.pie-de-pagina .grupo-2{
+  background-color: #004D98;
+  padding: 15px 10px;
+  text-align: center;
+  color: white;
+}
+
+.pie-de-pagina .grupo-2 small{
+  font-size: 15px;
+}
+
+ body {
+   margin: 0;
+   padding: 0;
+   background: url(img/istockphoto-1162036782-170667a.jpg);
+   object-fit: cover;
+   background-size: cover;
+   background-position: center;
+   font-family: sans-serif;  
+
+ }
+
+ 
